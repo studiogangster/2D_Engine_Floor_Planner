@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+   tools:context=".MainActivity">
+
+
+
+
+      <com.example.prakhar.myapplication.vie
+          android:layout_above="@+id/lo"
+          android:layout_width="match_parent"
+          android:id="@+id/vvv"
+          android:layout_height="match_parent" />
+
+<LinearLayout
+    android:layout_alignParentBottom="true"
+    android:id="@+id/lo"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+<Button
+
+    android:text="T-Shape"
+    android:textColor="#ffffff"
+    android:id="@+id/btn"
+    android:textSize="20sp"
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:background="#000000" android:layout_height="60dp" />
+    <Button
+        android:textSize="20sp"
+        android:text="Square"
+        android:textColor="#ffffff"
+        android:id="@+id/del"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:background="#ffff2044" android:layout_height="60dp" />
+</LinearLayout>
+</RelativeLayout>
